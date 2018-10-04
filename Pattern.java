@@ -18,31 +18,31 @@ System.out.println("Enter number:");
         for(int i = y; i>=1; i--)
 {
            for(int j = y; j>i; j--)
-              System.out.print(" ");
-           
+              System.out.print("&");
+
            for(int k = 1; k<=i; k++)
            {
            System.out.print("*");
            }
            System.out.println("");
-}    
+}
 
        System.out.print("\n");
 
 System.out.println("Enter number:");
         int z=sc.nextInt();
-	   
+
 	   for(int i = 1; i<=z; i++)
 	   {
 		  for(int j = z; j>i; j--)
-                  System.out.print(" "); 
+                  System.out.print(" ");
                   for(int k = 1; k<=i; k++)
                   System.out.print(i);
-                  System.out.print("\n"); 
+                  System.out.print("\n");
 
         }
-        
-        
+
+
      }
-	 
+
 }
