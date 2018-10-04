@@ -18,11 +18,11 @@ System.out.println("Enter number:");
         for(int i = y; i>=1; i--)
 {
            for(int j = y; j>i; j--)
-              System.out.print("&");
+              System.out.print(" ");
 
            for(int k = 1; k<=i; k++)
            {
-           System.out.print("*");
+           System.out.print("+");
            }
            System.out.println("");
 }
